@@ -7,6 +7,7 @@ import { RegistrationTableComponent } from './registration-table/registration-ta
 import { AdminComponent } from './admin.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './Login/login.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -16,7 +17,8 @@ import { LoginComponent } from './Login/login.component';
         RegistrationComponent,
         AdminComponent,
         RegistrationTableComponent,
-        LoginComponent
+        LoginComponent,
+        ProjectsComponent
     ],
     imports: [
         CommonModule,
