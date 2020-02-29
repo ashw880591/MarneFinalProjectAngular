@@ -22,7 +22,6 @@ import { EducationComponent } from './what-we-do/education/education.component';
 import { FooterComponent } from './footer/footer.component';
 import { OurprojectnameComponent } from './ourprojectname/ourprojectname.component';
 import { AuthenticationService } from './Admin/MainSlider/Login/login.service';
- 
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { adminroute } from './Admin/MainSlider/admin-routing.module';
