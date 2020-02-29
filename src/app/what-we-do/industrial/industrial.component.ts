@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-industrial',
@@ -7,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndustrialComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router) { }
+  GoToOurProjectNamePage(){
+    this.route.navigate(['OurProjectName'])
+  }
 
+  GoToWhoWeArePage(){
+    this.route.navigate(['WhoWeAre'])
+  }
   ngOnInit() {
   }
 

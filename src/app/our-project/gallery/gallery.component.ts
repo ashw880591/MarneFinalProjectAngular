@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-gallery',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router) { }
 
+  GoToOurProject(){
+    this.route.navigate(['OurProject'])
+  }
   ngOnInit() {
   }
 

@@ -45,7 +45,7 @@
                         <div class="col-md-4"></div>
                         <!-- <div class="button_group" style="justify-content: center"> -->
                         <div class="button_group">
-                            <button type="submit"[routerLink]="[Dashboard]"   class="btn  btn-sm btn-success"
+                            <button type="submit" (click)="GoToDashboardPage()"   class="btn  btn-sm btn-success"
                                 style="margin-right: 25px" (click)="loginVerify(loginModel.value)" [disabled]="!loginModel.valid">Login</button>
                             <!-- [disabled]="!loginModel.valid" -->
                         </div>

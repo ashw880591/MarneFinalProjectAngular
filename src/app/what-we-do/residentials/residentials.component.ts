@@ -16,6 +16,10 @@ export class ResidentialsComponent implements OnInit {
   GoToOurProjectName(){
     this.ourrouter.navigate(['OurProjectName'])
   }
+
+  GoToWhoWeArePage(){
+    this.ourrouter.navigate(['WhoWeAre'])
+  }
  
   ngOnInit() {
   }
