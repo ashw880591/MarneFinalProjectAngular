@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lastmarneproject"
+    }
+  },
+  "defaultProject": "lastmarneproject",
+  "cli": {
+    "analytics": "92fc2c28-75f7-467c-aeb4-bb3dde9a0ad6"
+  }
 }
